@@ -13,6 +13,8 @@
 		4D72DFA01F05ECE100554AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D72DF9E1F05ECE100554AF9 /* Main.storyboard */; };
 		4D72DFA21F05ECE100554AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D72DFA11F05ECE100554AF9 /* Assets.xcassets */; };
 		4D72DFA51F05ECE100554AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D72DFA31F05ECE100554AF9 /* LaunchScreen.storyboard */; };
+		4D72DFAF1F05ED7A00554AF9 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72DFAE1F05ED7900554AF9 /* DataModel.m */; };
+		4D72DFB21F05F06900554AF9 /* HZBTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72DFB11F05F06900554AF9 /* HZBTextModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4D72DFA11F05ECE100554AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D72DFA41F05ECE100554AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D72DFA61F05ECE100554AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D72DFAD1F05ED7900554AF9 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		4D72DFAE1F05ED7900554AF9 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		4D72DFB01F05F06900554AF9 /* HZBTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBTextModel.h; sourceTree = "<group>"; };
+		4D72DFB11F05F06900554AF9 /* HZBTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBTextModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		4D72DF941F05ECE100554AF9 /* Coding */ = {
 			isa = PBXGroup;
 			children = (
+				4D72DFAC1F05ED2F00554AF9 /* Model */,
 				4D72DF981F05ECE100554AF9 /* AppDelegate.h */,
 				4D72DF991F05ECE100554AF9 /* AppDelegate.m */,
 				4D72DF9B1F05ECE100554AF9 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				4D72DF961F05ECE100554AF9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D72DFAC1F05ED2F00554AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D72DFB01F05F06900554AF9 /* HZBTextModel.h */,
+				4D72DFB11F05F06900554AF9 /* HZBTextModel.m */,
+				4D72DFAD1F05ED7900554AF9 /* DataModel.h */,
+				4D72DFAE1F05ED7900554AF9 /* DataModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D72DFB21F05F06900554AF9 /* HZBTextModel.m in Sources */,
 				4D72DF9D1F05ECE100554AF9 /* ViewController.m in Sources */,
+				4D72DFAF1F05ED7A00554AF9 /* DataModel.m in Sources */,
 				4D72DF9A1F05ECE100554AF9 /* AppDelegate.m in Sources */,
 				4D72DF971F05ECE100554AF9 /* main.m in Sources */,
 			);
@@ -309,6 +329,7 @@
 				4D72DFAB1F05ECE100554AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
